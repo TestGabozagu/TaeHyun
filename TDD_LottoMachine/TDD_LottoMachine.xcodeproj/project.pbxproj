@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA5D3C9E28F01C0C002DEBBD /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D3C9D28F01C0C002DEBBD /* StrangeCalculator.swift */; };
 		EC059BFA28EB1724000E24F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC059BF928EB1724000E24F1 /* AppDelegate.swift */; };
 		EC059BFC28EB1724000E24F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC059BFB28EB1724000E24F1 /* SceneDelegate.swift */; };
 		EC059BFE28EB1724000E24F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC059BFD28EB1724000E24F1 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA5D3C9D28F01C0C002DEBBD /* StrangeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrangeCalculator.swift; sourceTree = "<group>"; };
 		EC059BF628EB1724000E24F1 /* TDD_LottoMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDD_LottoMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC059BF928EB1724000E24F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC059BFB28EB1724000E24F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				EC059C0228EB1725000E24F1 /* Assets.xcassets */,
 				EC059C0428EB1725000E24F1 /* LaunchScreen.storyboard */,
 				EC059C0728EB1725000E24F1 /* Info.plist */,
+				EA5D3C9D28F01C0C002DEBBD /* StrangeCalculator.swift */,
 				EC059C2928EB172E000E24F1 /* LottoMachine.swift */,
 			);
 			path = TDD_LottoMachine;
@@ -264,6 +267,7 @@
 				EC059C2A28EB172E000E24F1 /* LottoMachine.swift in Sources */,
 				EC059BFE28EB1724000E24F1 /* ViewController.swift in Sources */,
 				EC059BFA28EB1724000E24F1 /* AppDelegate.swift in Sources */,
+				EA5D3C9E28F01C0C002DEBBD /* StrangeCalculator.swift in Sources */,
 				EC059BFC28EB1724000E24F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
