@@ -1,10 +1,3 @@
-//
-//  LottoMachine.swift
-//  TDD_LottoMachine
-//
-//  Created by 김승찬 on 2022/10/03.
-//
-
 import Foundation
 
 struct LottoMachine {

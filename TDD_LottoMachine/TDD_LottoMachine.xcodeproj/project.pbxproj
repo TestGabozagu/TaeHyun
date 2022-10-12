@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA5D3C9E28F01C0C002DEBBD /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D3C9D28F01C0C002DEBBD /* StrangeCalculator.swift */; };
+		EA5D3CA628F01CAE002DEBBD /* StrangeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D3CA528F01CAE002DEBBD /* StrangeCalculatorTests.swift */; };
 		EC059BFA28EB1724000E24F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC059BF928EB1724000E24F1 /* AppDelegate.swift */; };
 		EC059BFC28EB1724000E24F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC059BFB28EB1724000E24F1 /* SceneDelegate.swift */; };
 		EC059BFE28EB1724000E24F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC059BFD28EB1724000E24F1 /* ViewController.swift */; };
@@ -21,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EA5D3CA728F01CAE002DEBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC059BEE28EB1724000E24F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC059BF528EB1724000E24F1;
+			remoteInfo = TDD_LottoMachine;
+		};
 		EC059C0D28EB1725000E24F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC059BEE28EB1724000E24F1 /* Project object */;
@@ -39,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		EA5D3C9D28F01C0C002DEBBD /* StrangeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrangeCalculator.swift; sourceTree = "<group>"; };
+		EA5D3CA328F01CAE002DEBBD /* StrangeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrangeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5D3CA528F01CAE002DEBBD /* StrangeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculatorTests.swift; sourceTree = "<group>"; };
 		EC059BF628EB1724000E24F1 /* TDD_LottoMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDD_LottoMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC059BF928EB1724000E24F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC059BFB28EB1724000E24F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EA5D3CA028F01CAE002DEBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC059BF328EB1724000E24F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,12 +97,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA5D3CA428F01CAE002DEBBD /* StrangeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D3CA528F01CAE002DEBBD /* StrangeCalculatorTests.swift */,
+			);
+			path = StrangeCalculatorTests;
+			sourceTree = "<group>";
+		};
 		EC059BED28EB1724000E24F1 = {
 			isa = PBXGroup;
 			children = (
 				EC059BF828EB1724000E24F1 /* TDD_LottoMachine */,
 				EC059C0F28EB1725000E24F1 /* TDD_LottoMachineTests */,
 				EC059C1928EB1725000E24F1 /* TDD_LottoMachineUITests */,
+				EA5D3CA428F01CAE002DEBBD /* StrangeCalculatorTests */,
 				EC059BF728EB1724000E24F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +122,7 @@
 				EC059BF628EB1724000E24F1 /* TDD_LottoMachine.app */,
 				EC059C0C28EB1725000E24F1 /* TDD_LottoMachineTests.xctest */,
 				EC059C1628EB1725000E24F1 /* TDD_LottoMachineUITests.xctest */,
+				EA5D3CA328F01CAE002DEBBD /* StrangeCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +163,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EA5D3CA228F01CAE002DEBBD /* StrangeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5D3CA928F01CAE002DEBBD /* Build configuration list for PBXNativeTarget "StrangeCalculatorTests" */;
+			buildPhases = (
+				EA5D3C9F28F01CAE002DEBBD /* Sources */,
+				EA5D3CA028F01CAE002DEBBD /* Frameworks */,
+				EA5D3CA128F01CAE002DEBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5D3CA828F01CAE002DEBBD /* PBXTargetDependency */,
+			);
+			name = StrangeCalculatorTests;
+			productName = StrangeCalculatorTests;
+			productReference = EA5D3CA328F01CAE002DEBBD /* StrangeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EC059BF528EB1724000E24F1 /* TDD_LottoMachine */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC059C2028EB1725000E24F1 /* Build configuration list for PBXNativeTarget "TDD_LottoMachine" */;
@@ -196,9 +241,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					EA5D3CA228F01CAE002DEBBD = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EC059BF528EB1724000E24F1;
+					};
 					EC059BF528EB1724000E24F1 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -228,11 +277,19 @@
 				EC059BF528EB1724000E24F1 /* TDD_LottoMachine */,
 				EC059C0B28EB1725000E24F1 /* TDD_LottoMachineTests */,
 				EC059C1528EB1725000E24F1 /* TDD_LottoMachineUITests */,
+				EA5D3CA228F01CAE002DEBBD /* StrangeCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EA5D3CA128F01CAE002DEBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC059BF428EB1724000E24F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,6 +317,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EA5D3C9F28F01CAE002DEBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D3CA628F01CAE002DEBBD /* StrangeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC059BF228EB1724000E24F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +357,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EA5D3CA828F01CAE002DEBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC059BF528EB1724000E24F1 /* TDD_LottoMachine */;
+			targetProxy = EA5D3CA728F01CAE002DEBBD /* PBXContainerItemProxy */;
+		};
 		EC059C0E28EB1725000E24F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EC059BF528EB1724000E24F1 /* TDD_LottoMachine */;
@@ -324,6 +394,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EA5D3CAA28F01CAE002DEBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZPRSF7LPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = std.StrangeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD_LottoMachine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TDD_LottoMachine";
+			};
+			name = Debug;
+		};
+		EA5D3CAB28F01CAE002DEBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZPRSF7LPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = std.StrangeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD_LottoMachine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TDD_LottoMachine";
+			};
+			name = Release;
+		};
 		EC059C1E28EB1725000E24F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,6 +689,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EA5D3CA928F01CAE002DEBBD /* Build configuration list for PBXNativeTarget "StrangeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D3CAA28F01CAE002DEBBD /* Debug */,
+				EA5D3CAB28F01CAE002DEBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EC059BF128EB1724000E24F1 /* Build configuration list for PBXProject "TDD_LottoMachine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
