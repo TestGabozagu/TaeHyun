@@ -109,9 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				EC059BF828EB1724000E24F1 /* TDD_LottoMachine */,
+				EA5D3CA428F01CAE002DEBBD /* StrangeCalculatorTests */,
 				EC059C0F28EB1725000E24F1 /* TDD_LottoMachineTests */,
 				EC059C1928EB1725000E24F1 /* TDD_LottoMachineUITests */,
-				EA5D3CA428F01CAE002DEBBD /* StrangeCalculatorTests */,
 				EC059BF728EB1724000E24F1 /* Products */,
 			);
 			sourceTree = "<group>";
